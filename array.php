@@ -10,13 +10,23 @@ $array[] = "menambah";
 // var_dump($array[4]);
 
 $yasz = ["hallo", 12, false, true, null];
-var_dump($yasz[0]);
+// var_dump($yasz[0]);
 
 $yasz[2] = "ini mengganti";
-var_dump($yasz[2]);
+// var_dump($yasz[2]);
 
 $yasz[] = "menambah ke 5";
-var_dump($yasz[5]);
+// var_dump($yasz[5]);
+
+$var = ["coba", 12, "iyah"];
+var_dump($var[1]);
+
+$var[2] = true;
+var_dump($var[2]);
+
+$var[] = "menambahkan";
+var_dump($var[3]);
+
 
 //map di php
 

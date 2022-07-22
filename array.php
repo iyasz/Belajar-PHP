@@ -53,4 +53,16 @@ $mapcoy = [
 
 var_dump($mapcoy[0]);
 
-// var_dump($mapTest["umur"]);
+//array didalam array 
+
+$ada = [
+    "test" => 14,
+    "coy" => "hah",
+    "iyh" => true,
+    "nama" => [
+        "cewe" => "elaina",
+        "cowo" => "iyasz"
+    ]
+];
+
+var_dump($ada["nama"]["cewe"]);

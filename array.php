@@ -43,6 +43,14 @@ $elaina = [
     "rumah" => "anime"
 ];
 
-var_dump($elaina["rumah"]);
+$mapcoy = [
+    "jan" => "hai",
+    "ranpo" => "oi",
+    "tahp" => 154,
+    "nggih" => true,
+    "iyasz"
+];
+
+var_dump($mapcoy[0]);
 
 // var_dump($mapTest["umur"]);

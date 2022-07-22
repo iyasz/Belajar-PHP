@@ -15,6 +15,9 @@ var_dump($yasz[0]);
 $yasz[2] = "ini mengganti";
 var_dump($yasz[2]);
 
+$yasz[] = "menambah ke 5";
+var_dump($yasz[5]);
+
 //map di php
 
 $mapTest = [

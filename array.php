@@ -26,4 +26,13 @@ $mapTest = [
     "kelas" => "XI RPL"
 ];
 
+$elaina = [
+    "nama" => "elaina",
+    "punya" => "iyasz",
+    "umur" => "unknow",
+    "rumah" => "anime"
+];
+
+var_dump($elaina["rumah"]);
+
 // var_dump($mapTest["umur"]);

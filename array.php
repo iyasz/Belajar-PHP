@@ -66,3 +66,15 @@ $ada = [
 ];
 
 var_dump($ada["nama"]["cewe"]);
+
+$ngaber = [
+    "amu" => "aku",
+    "kemana" => 25,
+    "sip" => "kelar",
+    "cita" => [
+        "pertama" => "programmer",
+        "kedua" => "desainer"
+    ]
+];
+
+var_dump($ngaber["cita"]["kedua"]);

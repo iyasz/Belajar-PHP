@@ -83,7 +83,7 @@ $ada = [
     ]
 ];
 
-var_dump($ada["nama"]["cewe"]);
+// var_dump($ada["nama"]["cewe"]);
 
 $ngaber = [
     "amu" => "aku",
@@ -95,4 +95,14 @@ $ngaber = [
     ]
 ];
 
-var_dump($ngaber["cita"]["kedua"]);
+// var_dump($ngaber["cita"]["kedua"]);
+
+$kk = [
+    "ah" => "malas",
+    "no" => 14,
+    "alamat" => [
+        "first" => "kahuripan",
+        "two" => "klapanunggal"
+    ]
+];
+// var_dump($kk["alamat"]["first"]);

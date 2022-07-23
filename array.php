@@ -60,7 +60,16 @@ $mapcoy = [
     "iyasz"
 ];
 
-var_dump($mapcoy[0]);
+// var_dump($mapcoy[0]);
+
+$yass = [
+    "kg" => "yes",
+    "oh" => true,
+    "nggih" => 15,
+    "trueNgabs" => "no"
+];
+
+// var_dump($yass["kg"]);
 
 //array didalam array 
 

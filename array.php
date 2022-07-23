@@ -106,3 +106,13 @@ $kk = [
     ]
 ];
 // var_dump($kk["alamat"]["first"]);
+
+$asyou = [
+    "nameB" => "yasz",
+    "nameG" => "elaina",
+    "status" => [
+        "yes" => "ha",
+        "no" => 15
+    ]
+];
+var_dump($asyou["status"]["yes"]);

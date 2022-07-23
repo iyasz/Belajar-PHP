@@ -19,13 +19,22 @@ $yasz[] = "menambah ke 5";
 // var_dump($yasz[5]);
 
 $var = ["coba", 12, "iyah"];
-var_dump($var[1]);
+// var_dump($var[1]);
 
 $var[2] = true;
-var_dump($var[2]);
+// var_dump($var[2]);
 
 $var[] = "menambahkan";
-var_dump($var[3]);
+// var_dump($var[3]);
+
+$geometr = ["iyasz", 14, "yes"];
+// var_dump($geometr[2]);
+
+$geometr[2] = "No";
+// var_dump($geometr[2]);
+
+$geometr[] = "tambah";
+// var_dump($geometr[3]);
 
 
 //map di php

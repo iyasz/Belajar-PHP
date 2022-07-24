@@ -5,7 +5,7 @@ $pembagian = 45 / 5;
 $perkalian = 3 * 4;
 $pangkat = 3**5;
 $total = $aritmatika + $pengurangan + $pembagian + $perkalian + $pangkat;
-var_dump($total);
+// var_dump($total);
 
 //operator penugasan
 
@@ -16,4 +16,13 @@ $kurang = 12;
 $penugasan += $kali;
 $penugasan /= $bagi;
 $penugasan -= $kurang;
-var_dump($penugasan);
+// var_dump($penugasan);
+
+// operator perbandingan
+$samadengan = 5 == 2;
+$identik = "5" === 5;
+$lebihbesar = 5 > 2;
+$lebihkecil = 9 < 15;
+$tidakSamaDengan = 5 != 5;
+$tidakType = 5 !== "5";
+var_dump($tidakType);

@@ -33,4 +33,18 @@ $tidaklebih = 5 >= 5;
 $and = !$samadengan && $lebihbesar;
 $or = $tidakSamaDengan || $tidakType;
 $xor = $lebihkecil xor $samadengan;
-var_dump($and);
+// var_dump($and);
+
+//operator array
+
+$first = [
+    "firstName" => "yasz",
+    "lastName" => "Avellia",
+    "fullName" => "yasz Avellia"
+];
+
+$two = [
+    "iyh" => "test"
+];
+
+var_dump($first + $two);

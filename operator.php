@@ -25,4 +25,12 @@ $lebihbesar = 5 > 2;
 $lebihkecil = 9 < 15;
 $tidakSamaDengan = 5 != 5;
 $tidakType = 5 !== "5";
-var_dump($tidakType);
+$tidaklebih = 5 >= 5;
+// var_dump($tidakType);
+
+//operator logika 
+
+$and = !$samadengan && $lebihbesar;
+$or = $tidakSamaDengan || $tidakType;
+$xor = $lebihkecil xor $samadengan;
+var_dump($and);

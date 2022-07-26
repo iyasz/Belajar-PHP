@@ -115,5 +115,16 @@ $asyou = [
         "no" => 15
     ]
 ];
-var_dump($asyou["status"]["yes"]);
-var_dump($asyou["status"]["no"]);
+// var_dump($asyou["status"]["yes"]);
+// var_dump($asyou["status"]["no"]);
+
+$hah = [
+    "var" => "iyh",
+    "har" => 12,
+    "alamat" => [
+        "ke1" => "kahuripan",
+        "ke2" => "jepang"
+    ]
+];
+var_dump($hah["alamat"]["ke1"]);
+

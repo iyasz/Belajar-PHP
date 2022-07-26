@@ -127,4 +127,5 @@ $hah = [
     ]
 ];
 var_dump($hah["alamat"]["ke1"]);
+var_dump($hah["alamat"]["ke2"]);
 

@@ -4,6 +4,10 @@
 //     echo "ini adalah anka ke-$angka" . PHP_EOL;
 // }
 
-for($nomor = 5; $nomor <= 20; $nomor++){
-    echo " ke-$nomor";
+// for($nomor = 5; $nomor <= 20; $nomor++){
+//     echo " ke-$nomor";
+// }
+
+for ($lo = 10; $lo >= 1; $lo--) {
+    echo "pengurangan ke-$lo";
 }

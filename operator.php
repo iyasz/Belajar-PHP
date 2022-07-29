@@ -48,3 +48,9 @@ $two = [
 ];
 
 var_dump($first + $two);
+
+goto a;
+echo "hello world";
+
+a:
+echo "yasz";

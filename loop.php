@@ -15,9 +15,15 @@ $kondisi = 1;
 //     $kondisi++;
 // }
 
-do {
-    echo "ini perulangan ke-$kondisi";
-    $kondisi++;
-} while ($kondisi <= 10);
+// do {
+//     echo "ini perulangan ke-$kondisi";
+//     $kondisi++;
+// } while ($kondisi <= 10);
+
+$names = ["iyasz", "elaina", "gas"];
+
+foreach($names as $names){
+        echo "ini perulangan-$names". PHP_EOL;
+}
 
 ?>

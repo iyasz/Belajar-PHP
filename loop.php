@@ -10,9 +10,14 @@
 
 $kondisi = 1;
 
-while($kondisi <= 10){
-    echo "angka ke-$kondisi";
+// while($kondisi <= 10){
+//     echo "angka ke-$kondisi";
+//     $kondisi++;
+// }
+
+do {
+    echo "ini perulangan ke-$kondisi";
     $kondisi++;
-}
+} while ($kondisi <= 10);
 
 ?>

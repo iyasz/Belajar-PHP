@@ -22,8 +22,18 @@ $kondisi = 1;
 
 $names = ["iyasz", "elaina", "gas"];
 
-foreach($names as $names){
-        echo "ini perulangan-$names". PHP_EOL;
+// foreach($names as $names){
+//         echo "ini perulangan-$names". PHP_EOL;
+// }
+
+$person = [
+    "firstName" => "yasz",
+    "lastName" => "avellia",
+    "middleName" => "ha"
+];
+
+foreach($person as $key => $value){
+    echo "$key : $value" . PHP_EOL;
 }
 
 ?>

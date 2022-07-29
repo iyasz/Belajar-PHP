@@ -32,8 +32,12 @@ $person = [
     "middleName" => "ha"
 ];
 
-foreach($person as $key => $value){
-    echo "$key : $value" . PHP_EOL;
+// foreach($person as $key => $value){
+//     echo "$key : $value" . PHP_EOL;
+// }
+
+foreach($names as $key => $value){
+    echo "ini value = $value";
 }
 
 ?>

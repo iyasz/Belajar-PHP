@@ -29,4 +29,10 @@ function Pertama(){
     }
 };
 
-var_dump(Pertama());
+function TotalHarga() {
+    for($harga = 20; $harga <= 30; $harga++ ){
+        echo $harga;
+    }
+};
+
+var_dump(TotalHarga());

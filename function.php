@@ -12,9 +12,7 @@
 //     }
 // }
 
-function sayHy($name){
-    echo "Hy $name" . PHP_EOL;
-};
+// function sayHy($name){
+//     echo "Hy $name" . PHP_EOL;
+// };
 
-sayHy("iyasz");
-sayHy("elaina");
